@@ -10,7 +10,7 @@ import datetime
 
 style.use('ggplot')
 
-df = quandl.get("WIKI/GOOGL", authtoken='g2i7bUNr-zPCD3M5XDy6')
+df = quandl.get("WIKI/GOOGL", authtoken='***************')
 ##print(df.head(5))
 
 df = df[['Adj. Open','Adj. Close','Adj. High','Adj. Low','Adj. Volume']]
